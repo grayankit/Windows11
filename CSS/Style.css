@@ -28,10 +28,61 @@ body{
 .startmenu img{
     border-radius: 8px;
 }
+.desktop{
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 4px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+}
+.edgeapp{
+    position: absolute;
+    /*top: 25px;*/
+    top: -924px;
+    left: 164px;
+    transition: all 0.3s ease-in;
+
+}
+.edgeapp img{
+    width: 98.8rem;
+    border-radius: 12px
+}
+.recyleapp{
+    position: absolute;
+    /*top: 25px;*/
+    top: -1086px;
+    left: 164px;
+    transition: all 0.3s ease-in;
+}
+.recyleapp img{
+    width: 98.8rem;
+    border-radius: 12px
+}
+.img{
+    width: 124px;
+    margin: 8px;
+}
+.imgimgimg{
+    width: 124px;
+    margin: 8px;
+}
+.imgimg{
+    width: 75px;
+    margin-left: 1px;
+    margin: 22px;
+}
 .right{
     justify-self: flex-end;
     position: absolute;
     right: 0;
     margin: 6px 0;
     height: 85%;
+}
+.left{
+    justify-self: flex-end;
+    position: absolute;
+    left: 4px;
 }
